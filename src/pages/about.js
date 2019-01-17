@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "../components/header";
 
-const HomePage = () => (
+const AboutPage = () => (
   <div>
     <Header />
-    <h1>Hello World!</h1>
+    <h1>Zeshan Amjad is a front-end developer.</h1>
   </div>
 );
 
-export default HomePage;
+export default AboutPage;
