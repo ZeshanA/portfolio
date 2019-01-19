@@ -1,13 +1,13 @@
 @import "../styles/vars";
 
+$pageWidth: 750px;
+
 .wrapper {
   @include perfectCentre();
-  width: 750px;
-
-  @media (max-device-width: 900px) {
-    max-width: 100%;
-    padding: 0 20px;
-  }
+  box-sizing: border-box;
+  max-width: 750px;
+  padding: 50px;
+  width: 100%;
 }
 
 .headline {
