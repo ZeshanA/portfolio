@@ -15,7 +15,7 @@ const ContactIcons = () => {
       {profiles.map(profile => (
         <li key={profile.link} className={profile.name}>
           <a href={profile.link}>
-            <FontAwesomeIcon icon={profile.icon} />
+            <FontAwesomeIcon icon={profile.icon} size="lg" />
           </a>
         </li>
       ))}
