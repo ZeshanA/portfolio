@@ -17,6 +17,7 @@
     "validate": "npm-run-all lint prettify test"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.6",
     "gatsby": "^2.0.76",
     "react": "^16.5.1",
     "react-dom": "^16.5.1"
