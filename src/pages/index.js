@@ -3,9 +3,14 @@ import Headline from "../components/Headline/Headline";
 import Section from "../components/Section/Section";
 import styles from "./index.module.scss";
 import ContactIcons from "../components/ContactIcons/ContactIcons";
+import { Helmet } from "react-helmet";
+import { siteMetadata } from "../../gatsby-config";
 
 const HomePage = () => (
   <div className={styles.wrapper}>
+    <Helmet>
+      <title>{siteMetadata.title}</title>
+    </Helmet>
     <Headline
       title="Zeshan Amjad"
       subtitle="Front-end Developer"
