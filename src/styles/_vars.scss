@@ -1,5 +1,6 @@
-$textFontFamily: "SF Text", sans-serif;
-$headingFontFamily: "SF Display", sans-serif;
+$fallbackFonts: -apple-system, BlinkMacSystemFont, 'Roboto', 'Source Sans Pro', sans-serif;
+$textFontFamily: "SF Text", $fallbackFonts;
+$headingFontFamily: "SF Display", $fallbackFonts;
 
 $midGrey: #787878;
 

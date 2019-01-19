@@ -17,7 +17,7 @@ const HomePage = () => (
     <Section title="Education">BEng Computing, Imperial College London</Section>
     <Section title="Contact">
       <ContactIcons />
-      <p style={{ lineHeight: `150%`, fontSize: `0.75em` }}>
+      <p style={{ lineHeight: `150%`, fontSize: `0.75em`, margin: 0 }}>
         <strong>Recruiters:</strong> Feel free to get in touch regarding
         front-end roles built on modern tech stacks (ideally using React), with
         salaries circa £65k+

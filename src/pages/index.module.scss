@@ -2,15 +2,39 @@
 
 $pageWidth: 750px;
 
+body {
+  @media (max-width: 350px) {
+    font-size: 0.8em;
+  }
+}
+
 .wrapper {
   @include perfectCentre();
   box-sizing: border-box;
-  max-width: 750px;
+  max-width: $pageWidth;
   padding: 50px;
   width: 100%;
+
+  @media (max-height: 600px) {
+    margin: 0 auto;
+    position: static;
+    transform: none;
+  }
+
+  @media (max-width: 400px) {
+    padding: 40px;
+  }
 }
 
 .headline {
   display: inline-block;
   margin: 0 auto;
+
+  @media (max-width: $pageWidth) {
+    font-size: 0.7em;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 0.6em;
+  }
 }

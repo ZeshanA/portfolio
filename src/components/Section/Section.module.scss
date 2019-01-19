@@ -2,6 +2,10 @@
 
 .section {
   margin: 30px 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .title,
@@ -21,4 +25,5 @@
 
 .content {
   color: $midGrey;
+  line-height: 170%;
 }

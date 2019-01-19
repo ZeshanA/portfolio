@@ -16,7 +16,7 @@ const Section = props => {
 Section.propTypes = {
   title: PropTypes.string,
   className: PropTypes.string,
-  children: PropTypes.arrayOf(PropTypes.element)
+  children: PropTypes.any
 };
 
 export default Section;
