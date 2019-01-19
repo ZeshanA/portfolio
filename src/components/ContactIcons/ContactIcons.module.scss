@@ -1,0 +1,31 @@
+@import "../../styles/_vars";
+
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-right: 30px;
+
+    &.mail a {
+      color: $midGrey;
+    }
+
+    &.linkedIn a {
+      color: #0077b5;
+    }
+
+    &.github a {
+      color: #333;
+    }
+
+    &.dribbble a {
+      color: #ea4c89;
+    }
+
+    &.twitter a {
+      color: #1da1f2;
+    }
+  }
+}

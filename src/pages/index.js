@@ -2,6 +2,7 @@ import React from "react";
 import Headline from "../components/Headline/Headline";
 import Section from "../components/Section/Section";
 import styles from "./index.module.scss";
+import ContactIcons from "../components/ContactIcons/ContactIcons";
 
 const HomePage = () => (
   <div className={styles.wrapper}>
@@ -15,7 +16,7 @@ const HomePage = () => (
     </Section>
     <Section title="Education">BEng Computing, Imperial College London</Section>
     <Section title="Contact">
-      Email LinkedIn GitHub Dribbble Twitter
+      <ContactIcons />
       <p style={{ lineHeight: `150%`, fontSize: `0.75em` }}>
         <strong>Recruiters:</strong> Feel free to get in touch regarding
         front-end roles built on modern tech stacks (ideally using React), with
