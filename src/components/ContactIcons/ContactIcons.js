@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/pro-regular-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {
   faDribbble,
   faGithub,
