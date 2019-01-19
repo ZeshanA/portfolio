@@ -1,9 +1,8 @@
 import React from "react";
+import Headline from "../components/Headline/Headline";
 
 const HomePage = () => (
-  <div>
-    <h1>Hello World!</h1>
-  </div>
+  <Headline title="Zeshan Amjad" subtitle="Front-end Developer" />
 );
 
 export default HomePage;
