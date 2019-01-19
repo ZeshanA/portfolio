@@ -1,10 +1,28 @@
-/** Medium */
+@import "./_vars.scss";
+
+/** SF Display Medium */
 @font-face {
-    font-family: "SF Display";
-    font-weight: 500;
-    src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+  font-family: "SF Display";
+  font-weight: 500;
+  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+
+/** SF Text Regular */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 500;
+  src: url("https://sf.abarba.me/SF-UI-Text-Regular.otf");
 }
 
 body {
-    font-family: "SF Display", sans-serif;
+  font-family: $textFontFamily;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingFontFamily;
 }

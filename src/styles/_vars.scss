@@ -1,1 +1,11 @@
+$textFontFamily: "SF Text", sans-serif;
+$headingFontFamily: "SF Display", sans-serif;
+
 $midGrey: #787878;
+
+@mixin perfectCentre {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

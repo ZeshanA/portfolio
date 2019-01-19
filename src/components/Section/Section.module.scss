@@ -1,0 +1,24 @@
+@import "../../styles/_vars";
+
+.section {
+  margin: 30px 0;
+}
+
+.title,
+.content {
+  font: {
+    family: $textFontFamily;
+    size: 1.2em;
+  }
+  margin: 0;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.content {
+  color: $midGrey;
+}

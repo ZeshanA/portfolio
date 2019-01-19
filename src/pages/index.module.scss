@@ -1,5 +1,15 @@
 @import "../styles/vars";
 
+.wrapper {
+  @include perfectCentre();
+  width: 750px;
+
+  @media (max-device-width: 900px) {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
 .headline {
   display: inline-block;
   margin: 0 auto;
