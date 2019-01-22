@@ -2,6 +2,7 @@
 
 /** SF Display Medium */
 @font-face {
+  font-display: swap;
   font-family: "SF Display";
   font-weight: 500;
   src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
@@ -9,6 +10,7 @@
 
 /** SF Text Regular */
 @font-face {
+  font-display: swap;
   font-family: "SF Text";
   font-weight: 500;
   src: url("https://sf.abarba.me/SF-UI-Text-Regular.otf");
