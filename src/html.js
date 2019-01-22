@@ -1,5 +1,5 @@
 import React from "react";
-import { siteMetadata } from "gatsby-config";
+import { siteMetadata } from "../gatsby-config";
 import PropTypes from "prop-types";
 
 export default class HTML extends React.Component {
