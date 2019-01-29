@@ -24,8 +24,7 @@ const HomePage = () => (
       <ContactIcons />
       <p style={{ lineHeight: `150%`, fontSize: `0.75em`, margin: 0 }}>
         <strong>Recruiters:</strong> Feel free to get in touch regarding
-        front-end roles built on modern tech stacks (ideally using React), with
-        salaries circa £65k+
+        front-end roles built on modern tech stacks (ideally using React)
       </p>
     </Section>
   </div>
