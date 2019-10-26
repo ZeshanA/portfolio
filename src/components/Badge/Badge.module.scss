@@ -4,7 +4,7 @@ $badgeSize: 28px;
 
 .badge {
   @media (max-width: 480px) {
-    line-height: $badgeSize + 2px;
+    line-height: $badgeSize - 1px;
   }
   background-color: black;
   border-radius: 4px;
