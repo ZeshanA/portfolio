@@ -1,0 +1,33 @@
+@import "../../styles/_vars";
+
+$badgeSize: 28px;
+
+.badge {
+  background-color: black;
+  border-radius: 4px;
+  color: #fff;
+  height: $badgeSize;
+  line-height: $badgeSize - 2px;
+  margin: 0;
+  padding: 0 8px;
+  text-align: center;
+  text-decoration: none;
+
+  font: {
+    size: 0.7em;
+    weight: bold;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+/* stylelint-disable */
+.icon {
+  @include verticallyCentreContents();
+  display: inline-flex;
+  margin-right: 8px;
+}
+/* stylelint-enable */

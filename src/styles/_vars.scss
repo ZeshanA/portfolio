@@ -10,3 +10,10 @@ $midGrey: #595959;
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+@mixin verticallyCentreContents {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

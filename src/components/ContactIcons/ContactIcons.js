@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope, faIdCard } from "@fortawesome/free-regular-svg-icons";
 import {
   faDribbble,
   faGithub,
@@ -8,12 +8,21 @@ import {
   faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./ContactIcons.module.scss";
+import Badge from "../Badge/Badge";
 
 const ContactIcons = () => {
   return (
     <ul className={styles.list}>
+      {internalLinks.map(internalLink => (
+        <li key={internalLink.link}>
+          <Badge {...internalLink}>{internalLink.text}</Badge>
+        </li>
+      ))}
       {profiles.map(profile => (
-        <li key={profile.link} className={profile.name}>
+        <li
+          key={profile.link}
+          className={`${profile.className} ${styles.icon}`}
+        >
           <a href={profile.link} title={profile.title}>
             <FontAwesomeIcon icon={profile.icon} size="lg" />
           </a>
@@ -23,33 +32,42 @@ const ContactIcons = () => {
   );
 };
 
-const profiles = [
+const internalLinks = [
   {
-    name: styles.mail,
-    icon: faEnvelope,
-    link: "mailto:zeshan@zesh.me",
-    title: "Email: zeshan@zesh.me"
+    icon: faIdCard,
+    link: "http://zeshan.me/cv",
+    title: "A link to my CV",
+    text: "My CV"
   },
   {
-    name: styles.linkedIn,
+    icon: faEnvelope,
+    link: "mailto:zeshan@zesh.me",
+    title: "Email: zeshan@zesh.me",
+    text: "My Email"
+  }
+];
+
+const profiles = [
+  {
+    className: styles.linkedIn,
     icon: faLinkedin,
     link: "http://linkedin.com/in/zeshana",
     title: "LinkedIn"
   },
   {
-    name: styles.github,
+    className: styles.github,
     icon: faGithub,
     link: "http://github.com/zeshana",
     title: "GitHub"
   },
   {
-    name: styles.dribbble,
+    className: styles.dribbble,
     icon: faDribbble,
     link: "http://dribbble.com/zeshana",
     title: "Dribbble"
   },
   {
-    name: styles.twitter,
+    className: styles.twitter,
     icon: faTwitter,
     link: "http://twitter.com/zshnamjd",
     title: "Twitter"

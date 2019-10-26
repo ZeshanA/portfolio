@@ -19,7 +19,7 @@ const HomePage = () => (
     <Section title="Experience">
       React ∙ Redux ∙ TypeScript ∙ Angular ∙ SCSS ∙ Java ∙ Python ∙ Swift
     </Section>
-    <Section title="Education">BEng Computing, Imperial College London</Section>
+    <Section title="Education">1st Class Honours, BEng Computing, <strong>Imperial College London</strong></Section>
     <Section title="Contact">
       <ContactIcons />
       <p style={{ lineHeight: `150%`, fontSize: `0.75em`, margin: 0 }}>

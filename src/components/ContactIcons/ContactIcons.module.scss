@@ -6,10 +6,15 @@
   padding: 0;
 
   li {
-    margin-right: 30px;
+    @include verticallyCentreContents;
+    margin-right: 20px;
+
+    &.icon a {
+      @include verticallyCentreContents;
+    }
 
     &.mail a {
-      color: $midGrey;
+      color: black;
     }
 
     &.linkedIn a {
