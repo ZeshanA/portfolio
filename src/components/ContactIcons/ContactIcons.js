@@ -13,21 +13,26 @@ import Badge from "../Badge/Badge";
 const ContactIcons = () => {
   return (
     <ul className={styles.list}>
-      {internalLinks.map(internalLink => (
-        <li key={internalLink.link}>
-          <Badge {...internalLink}>{internalLink.text}</Badge>
-        </li>
-      ))}
-      {profiles.map(profile => (
-        <li
-          key={profile.link}
-          className={`${profile.className} ${styles.icon}`}
-        >
-          <a href={profile.link} title={profile.title}>
-            <FontAwesomeIcon icon={profile.icon} size="lg" />
-          </a>
-        </li>
-      ))}
+      <li className={styles.badges}>
+        {internalLinks.map(internalLink => (
+          <div key={internalLink.link} className={styles.badge}>
+            <Badge {...internalLink}>{internalLink.text}</Badge>
+          </div>
+        ))}
+      </li>
+
+      <li className={styles.icons}>
+        {profiles.map(profile => (
+          <div
+            key={profile.link}
+            className={`${profile.className} ${styles.icon}`}
+          >
+            <a href={profile.link} title={profile.title}>
+              <FontAwesomeIcon icon={profile.icon} size="lg" />
+            </a>
+          </div>
+        ))}
+      </li>
     </ul>
   );
 };

@@ -2,35 +2,57 @@
 
 .list {
   display: flex;
-  list-style: none;
-  padding: 0;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
 
-  li {
+.list li {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.badges,
+.icons {
+  margin-bottom: 20px;
+}
+
+.badge,
+.icon {
+  @include verticallyCentreContents;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.badge {
+  flex-shrink: 0;
+}
+
+.icon {
+  margin-right: 20px;
+
+  a {
     @include verticallyCentreContents;
-    margin-right: 20px;
+    display: inline-flex;
+  }
 
-    &.icon a {
-      @include verticallyCentreContents;
-    }
+  &.mail a {
+    color: black;
+  }
 
-    &.mail a {
-      color: black;
-    }
+  &.linkedIn a {
+    color: #0077b5;
+  }
 
-    &.linkedIn a {
-      color: #0077b5;
-    }
+  &.github a {
+    color: #333;
+  }
 
-    &.github a {
-      color: #333;
-    }
+  &.dribbble a {
+    color: #ea4c89;
+  }
 
-    &.dribbble a {
-      color: #ea4c89;
-    }
-
-    &.twitter a {
-      color: #1da1f2;
-    }
+  &.twitter a {
+    color: #1da1f2;
   }
 }
