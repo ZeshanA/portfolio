@@ -20,13 +20,13 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-regular-svg-icons": "^5.11.2",
-    "@fortawesome/react-fontawesome": "^0.1.7",
-    "gatsby": "^2.17.4",
-    "gatsby-plugin-react-helmet": "^3.1.13",
-    "gatsby-plugin-sass": "^2.1.20",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "gatsby": "^2.18.7",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-sass": "^2.1.24",
     "node-sass": "^4.13.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1"
   },
   "repository": {
@@ -37,14 +37,14 @@
     "url": "http://github.com/ZeshanA/Portfolio/issues"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-plugin-react": "^7.16.0",
-    "husky": "^3.0.9",
+    "eslint": "^6.7.2",
+    "eslint-plugin-react": "^7.17.0",
+    "husky": "^3.1.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.18.2",
-    "stylelint": "^11.1.1",
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-order": "^3.1.1",
-    "stylelint-scss": "^3.12.0"
+    "stylelint-scss": "^3.13.0"
   }
 }
