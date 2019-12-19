@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/cv"
-  to = "https://www.dropbox.com/s/ldn503179wnc47b/Zeshan%20Amjad%20-%20CV%20-%20Latest.pdf?dl=0"
+  to = "https://dl.dropboxusercontent.com/s/ldn503179wnc47b/Zeshan%20Amjad%20-%20CV%20-%20Latest.pdf?dl=0"
   status = 301
   force = true
   headers = {X-From = "Netlify"}
