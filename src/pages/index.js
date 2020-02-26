@@ -13,18 +13,18 @@ const HomePage = () => (
     </Helmet>
     <Headline
       title="Zeshan Amjad"
-      subtitle="Front-end Developer"
+      subtitle="Full Stack Developer"
       className={styles.headline}
     />
     <Section title="Experience">
-      React ∙ Redux ∙ TypeScript ∙ Angular ∙ SCSS ∙ Java ∙ Python ∙ Swift
+      React ∙ Redux ∙ TypeScript ∙ Java ∙ Go ∙ Python
     </Section>
     <Section title="Education">1st Class Honours, BEng Computing, <strong>Imperial College London</strong></Section>
     <Section title="Contact">
       <ContactIcons />
       <p style={{ lineHeight: `150%`, fontSize: `0.75em`, margin: 0 }}>
         <strong>Recruiters:</strong> Feel free to get in touch regarding
-        front-end roles built on modern tech stacks (ideally using React)
+        full stack roles built on modern tech stacks (ideally using React)
       </p>
     </Section>
   </div>
