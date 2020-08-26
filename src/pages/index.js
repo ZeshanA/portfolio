@@ -13,11 +13,11 @@ const HomePage = () => (
     </Helmet>
     <Headline
       title="Zeshan Amjad"
-      subtitle="Full Stack Developer"
+      subtitle="Full Stack Engineer"
       className={styles.headline}
     />
     <Section title="Experience">
-      React ∙ Redux ∙ TypeScript ∙ Java ∙ Go ∙ Python
+      React ∙ Go ∙ Java ∙ TypeScript ∙ Python
     </Section>
     <Section title="Education">1st Class Honours, BEng Computing, <strong>Imperial College London</strong></Section>
     <Section title="Contact">
